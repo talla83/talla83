@@ -1,0 +1,1 @@
+pin+motion.spindle-speed-in pin+motion.spindle-speed-out pin+spindle-at-speed.in1 pin+spindle-at-speed.out pin+spindle-at-speed.in2 pin+spindle-ramp.in pin+spindle-ramp.out pin+spindle-ramp.load pin+pwmgen.0.value pin+pwmgen.0.enable pin+pwmgen.0.pwm pin+pwmgen.0.pwm-freq pin+delay pin+delay.s.on-delay pin+delay.s.off-delay pin+delay.s.out pin+gearchange.0.sel

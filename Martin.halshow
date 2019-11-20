@@ -1,0 +1,1 @@
+pin+axis.0.motor-pos-cmd pin+axis.0.motor-pos-fb pin+axis.0.f-error pin+hm2_5i25.0.encoder.00.velocity pin+hm2_5i25.0.encoder.00.count pin+hm2_5i25.0.encoder.00.position pin+pid.x.command pin+pid.x.feedback pin+pid.x.error pin+pid.x.output pin+hm2_5i25.0.stepgen.00.velocity-cmd

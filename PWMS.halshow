@@ -1,0 +1,1 @@
+pin+pwmgen.0.enable pin+pwmgen.0.pwm pin+pwmgen.0.value pin+pwmgen.0.scale

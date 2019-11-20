@@ -1,0 +1,27 @@
+# Include your custom_postgui HAL commands here
+# This file will not be overwritten when you run PNCconf again
+
+
+
+
+net probe-in1     debounce.1.0.in <= parport.0.pin-13-in-not 
+
+net probe-in      debounce.1.0.out =>  motion.probe-input => gladevcp.hal_mtk
+
+net probe-err     parport.0.pin-12-in-not => gladevcp.hal_mts
+
+net probe-bat     parport.0.pin-11-in => gladevcp.hal_mtb
+
+
+
+
+
+net spindle-revs 	=> spindel.position
+net spindle-cw  	=> spindel.m1 		=> spindel.pwm-enable
+net spindle-rpm		=> spindel.velocity 	=> spindel.meter1
+net spindle-ready	=> spindel.at-speed
+net gear		=> spindel.solldrehzahl
+net gearbrk02		=> spindel.s1
+net gearbrk01		=> spindel.s2
+net spindle-ramped	=> spindel.pwm-value
+net spindle-index-enable => spindel.index-enable

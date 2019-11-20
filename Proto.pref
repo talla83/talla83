@@ -1,0 +1,16 @@
+[DEFAULT]
+chk_set_zero = False
+chk_auto_rott = False
+ps_searchvel = 600.0
+ps_probevel = 50.0
+ps_z_clearance = 1.0
+ps_probe_max = 65.0
+ps_probe_latch = 0.5
+ps_probe_diam = 5.96
+ps_xy_clearance = 5.0
+ps_edge_lenght = 5.0
+ps_offs_x = 0.0
+ps_offs_y = 0.0
+ps_offs_z = 0.0
+ps_offs_angle = 0.0
+

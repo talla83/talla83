@@ -1,0 +1,9 @@
+o<mtstart> sub
+
+T1 M6 G43	
+M3 S600
+G4 P3
+M5
+	
+o<mtstart> endsub
+M2
